@@ -102,6 +102,7 @@ a {
 
 .border {
   color:#4CAF50;
+  background-color:#4CAF50;
   width: 120px;
   border: 2px solid #4CAF50;
 }
@@ -248,6 +249,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+  margin: 30px 0 10px;
 }
 
 .blog-title h2 {
@@ -258,6 +260,7 @@ footer {
 
 .border-2 {
   color:#4CAF50;
+  background-color:#4CAF50;
   width: 80px;
   border: 2px solid #4CAF50;
 }
@@ -295,8 +298,48 @@ footer {
   color: white;
 }
 
+.other-titles {
+  margin: 10px 0;
+}
+
 .about {
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.about p {
+  line-height: 30px;
+}
+
+.bgimg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-size: 25px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hr {
+  margin: auto;
+  width: 40%;
 }
